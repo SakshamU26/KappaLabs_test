@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Marketing Copy Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Generate Real Estate Marketing Copy</h1>
+  <form id="copy-form">
+    <label for="propertyType">Property Type:</label>
+    <select id="propertyType" name="propertyType">
+      <option value="apartment">Apartment</option>
+      <option value="house">House</option>
+      <option value="condo">Condo</option>
+      </select>
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" placeholder="Enter City and State">
+
+    <label for="targetAudience">Target Audience (optional):</label>
+    <input type="text" id="targetAudience" name="targetAudience" placeholder="e.g., Young Professionals">
+
+    <button type="submit">Generate Copy</button>
+  </form>
+  <div id="generated-copy"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
